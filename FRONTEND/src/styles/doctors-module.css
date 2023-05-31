@@ -1,0 +1,82 @@
+.doctors_page {
+    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+}
+
+.doctors_frame {
+    padding: 10px;
+    height: 50vh !important;
+    background-color: #eee;
+    background-position: center;
+    background-size: cover;
+
+    animation: image 5s infinite alternate;
+}
+
+@keyframes image {
+    0% {
+        background-image: url('https://thumbs.dreamstime.com/b/doctor-hospital-background-copy-space-doctor-hospital-background-copy-space-healthcare-medical-concept-108682352.jpg');
+    }
+
+    100% {
+        background-image: url('https://thumbs.dreamstime.com/b/doctor-stethoscope-hand-hospital-background-gown-94227568.jpg');
+    }
+}
+
+.doctors {
+    position: absolute;
+    top: 30%;
+    left: 60%;
+}
+
+.doctors>h1 {
+    font-size: 60px;
+}
+
+
+.doctor_page>h1{
+text-align: center;
+margin-top: 100px;
+}
+
+.doctor_list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 60px;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.doctor_card:hover{
+    background-color: rgba(0, 0, 255, 0.39);
+    color:white;
+    font-weight: 700;
+}
+
+.doctor_card_image{
+    overflow: hidden;
+
+}
+
+.doctor_card_image>img{
+    height: 300px;
+    width: 100%;
+}
+
+
+.doctors_image {
+    transition: transform .5s ease;
+}
+
+.doctors_image:hover {
+    transform: scale(1.1);
+}
+
+.card-body {
+    padding: 10px;
+}
+
+.card-body>p {
+    margin-top: 10px;
+}
+

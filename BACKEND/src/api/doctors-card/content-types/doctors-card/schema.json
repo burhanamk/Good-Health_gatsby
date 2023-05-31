@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "doctors_cards",
+  "info": {
+    "singularName": "doctors-card",
+    "pluralName": "doctors-cards",
+    "displayName": "doctors_card"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "title": {
+      "type": "string"
+    },
+    "titlesub": {
+      "type": "string"
+    }
+  }
+}

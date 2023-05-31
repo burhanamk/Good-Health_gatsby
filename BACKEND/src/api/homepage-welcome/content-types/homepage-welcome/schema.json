@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "homepage_welcomes",
+  "info": {
+    "singularName": "homepage-welcome",
+    "pluralName": "homepage-welcomes",
+    "displayName": "homepage_welcome"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titleMain": {
+      "type": "string"
+    },
+    "titleSub": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "body": {
+      "type": "richtext"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "logo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

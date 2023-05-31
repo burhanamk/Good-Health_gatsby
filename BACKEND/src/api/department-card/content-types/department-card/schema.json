@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "department_cards",
+  "info": {
+    "singularName": "department-card",
+    "pluralName": "department-cards",
+    "displayName": "Department_card",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "titleMain": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "body": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,141 @@
+.contact_frame {
+    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+}
+
+.contact_module {
+    padding: 10px;
+    height: 50vh !important;
+    background-color: #eee;
+    background-position: center;
+    background-size: cover;
+
+    animation: image 5s infinite alternate;
+}
+
+@keyframes image {
+    0% {
+        background-image: url('https://thumbs.dreamstime.com/b/doctor-hospital-background-copy-space-doctor-hospital-background-copy-space-healthcare-medical-concept-108682352.jpg');
+    }
+
+    100% {
+        background-image: url('https://thumbs.dreamstime.com/b/doctor-stethoscope-hand-hospital-background-gown-94227568.jpg');
+    }
+}
+
+.contact{
+    position: absolute;
+    top: 30%;
+    left: 60%;
+}
+
+.contact> h1{
+    font-size:50px;
+}
+
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-heading {
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.sub-heading {
+    margin-top: 20px;
+}
+
+.form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 50px 100px;
+    padding: 40px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.637);
+    width: 80%;
+}
+
+.form>form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 80%;
+    padding: 20px;
+
+}
+
+.form>form>input {
+    font-size: larger;
+    padding: 10px;
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.308);
+    border-radius: 30px;
+}
+
+.form>form>input::placeholder {
+    text-align: center;
+    color: black;
+}
+
+.form>form>textarea {
+    padding: 10px;
+    outline: none;
+    border: none;
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid black;
+    font-size: larger;
+
+}
+
+.form>form>textarea::placeholder {
+    text-align: center;
+    color: black;
+}
+
+.form>form>input:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+    border-bottom: 2px solid blue;
+}
+
+.contact-btn {
+    width: 100px;
+    padding: 10px;
+    margin: 0px auto;
+    background-color: rgb(108, 108, 240);
+}
+
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    margin-left: 40px;
+}
+
+.contact-details .location {
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+
+}
+
+.contact-details .mobile-detail {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 200px;
+}
+
+.contact-details .email-detail {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 200px;
+}

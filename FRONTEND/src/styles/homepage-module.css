@@ -1,0 +1,224 @@
+.main_page {
+    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+}
+
+.frame {
+    padding: 10px;
+    height: 90vh;
+    background-color: #eee;
+    background-position: center;
+    background-size: cover;
+
+    animation: image 5s infinite alternate;
+}
+
+@keyframes image {
+    0% {
+        background-image: url('https://thumbs.dreamstime.com/b/doctor-hospital-background-copy-space-doctor-hospital-background-copy-space-healthcare-medical-concept-108682352.jpg');
+    }
+
+    100% {
+        background-image: url('https://thumbs.dreamstime.com/b/doctor-stethoscope-hand-hospital-background-gown-94227568.jpg');
+    }
+}
+
+.frame_heading {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    text-align: justify;
+    padding: 20px;
+}
+
+.frame_heading>h1 {
+    font-size: 100px;
+}
+
+.frame_heading>h2 {
+    font-size: 50px;
+    font-weight: 100;
+}
+
+.frame_heading>p {
+    margin-top: 20px;
+    width: 80%;
+    line-height: 25px;
+    color: rgb(71, 68, 68);
+}
+
+.frame_button {
+    width: 200px;
+    text-align: center;
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #63a4ff;
+    background-image: linear-gradient(315deg, #63a4ff 0%, #83eaf1 74%);
+}
+
+.frame_button>a {
+    color: black;
+}
+
+/* ----------------- */
+
+
+.content_icon {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+.matter {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    margin: 50px;
+    gap: 10px;
+
+}
+
+.hospitality {
+    margin: 50px 0px;
+    text-align: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.452);
+    padding: 20px;
+    background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);}
+
+.hospitality>h2 {
+    padding: 10px;
+}
+
+.hospitality>p {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.xyz>a {
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+.welcome_box {
+    /* border: 1px solid red; */
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 30px;
+    gap: 60px;
+    margin: 50px;
+}
+.welcome_image {
+    width: 150%;
+}
+.image{
+    width: 100%;
+}
+.welcome_details>h4 {
+    font-size: large;
+    font-weight: 300;
+}
+
+.welcome_details>h1 {
+    /* border: 1px solid black; */
+    width: 50%;
+    /* margin-top: 30px; */
+    padding: 20px;
+}
+
+.welcome_details>p {
+    /* border: 1px solid black; */
+    width: 80%;
+    padding: 10px;
+    margin-left: 10px;
+    text-align: justify;
+    color: gray;
+}
+
+.welcome_button {
+    margin: 20px;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+    background-color: black;
+}
+
+.welcome_button>a {
+    color: white;
+}
+
+
+.leading_edge {
+    display: flex;
+    width: 90%;
+    padding: 10px;
+    gap: 50px;
+    align-items: center;
+    margin: auto;
+
+}
+
+.leading_edge_details {
+    padding: 10px;
+}
+
+.leading_edge_details>img {
+    width: 100px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 30%;
+    background-color: #83eaf16e;
+}
+
+
+.leading_edge_details>h3 {
+    padding: 10px;
+}
+
+.leading_edge_details>p {
+    padding: 10px;
+    color: gray;
+}
+
+.leading_edge_image{
+    width: 150%;
+}
+.lead_img{
+    width: 100%;
+}
+
+
+
+.frame_2 {
+    background-image: url("https://media.istockphoto.com/id/1319031310/photo/doctor-writing-a-medical-prescription.jpg?s=612x612&w=0&k=20&c=DWZGM8lBb5Bun7cbxhKT1ruVxRC_itvFzA9jxgoA0N8=");
+    padding: 10px;
+    height: 80vh;
+    margin-top: 100px;
+    background-color: #eee;
+    background-position: center;
+    background-size: cover;
+    filter: brightness(0.8);
+
+}
+.frame_2_details{
+    position: absolute;
+    width: 50%;
+    top: 45%;
+    left: 300px;
+    line-height: 30px;
+}
+.frame_2_details>p{
+   color: black;
+   font-size: large;
+   text-align: center;
+}
+.frame_2_details>h1{
+  border-bottom: 2px solid black;
+  width: 10%;
+  margin-left: 300px;
+  margin-top: 30px;
+ }
